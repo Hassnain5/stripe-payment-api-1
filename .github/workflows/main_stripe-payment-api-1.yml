@@ -69,6 +69,8 @@ jobs:
         with:
           app-name: 'stripe-payment-api-1'
           slot-name: 'Production'
-          package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
+          package: .
+
 
           
+
