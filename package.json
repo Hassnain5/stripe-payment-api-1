@@ -1,20 +1,12 @@
 {
   "name": "stripe-vercel-function",
   "version": "1.0.0",
-<<<<<<< HEAD
-  "description": "Stripe PaymentIntent Azure Function",
-  "main": "index.js",
-  "scripts": {
-    "start": "func start",
-    "test": "echo \"Skipping tests\" && exit 0"
-=======
   "type": "module",
   "main": "api/index.js",
   "scripts": {
     "start": "node api/index.js"
->>>>>>> 79de50b (Fix package.json for Vercel deployment)
   },
   "dependencies": {
-    "stripe": "^14.0.0"
+    "stripe": "^19.2.0"
   }
 }
